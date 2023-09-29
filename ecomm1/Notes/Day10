@@ -1,0 +1,77 @@
+Universal selects:
+
+A unoverasal selecter is a special type selecter and can therefore bby namespace when using @namespace
+
+This is useful when dealing with documents containg namespace such us HTML with inline SVG or MatchML , 
+or XML that mixes multiple vocabularies.
+
+
+Syntax:      *{style properties}
+#The astrisk is optional with simple slectors.
+for instance , &.warning and . warning are equivalent.
+
+
+ns| * = Matches all elements in namespace ns
+* | * = Matches all elements
+| * - Matches all elements without may declared
+namespace
+
+
+# CSS Float:
+The Css float property is a positioning property. It us used to push an element to the left or right , alowing other element to wrap around it. It us generally used with images and layout.
+
+# Elemnets are floated only horizontally , So it us possible only to flott elemnets left or right , not up or down.
+ 
+ 1.A floated element may be moved as for to the left or right as possible . Simply it means that a floated element can display at extreme left or extreme right.
+ 2.The element after the floating elemnet will flow around it.
+ 3.The elements before the flaoting element will not be effected.
+ 4.If the image to the right , the texts flow arounf it, to the left anf if the image floated to the left , the text flows around it, to the right.
+
+ CSS property:
+
+ float: It specifies whether the box should float or not.
+
+ syntax: left, right,none, inherit
+
+ Css float property value:
+
+ 1.none: It specifir=es that he elemnt is not floated, will be displayed just where it occurs in the text.
+ This is a default value.
+
+ 2.left:It is used to float the element to the left side.
+
+ 3.right: It is used to float the element to the right side.
+
+ 4.Inintial:It sets the property to its inintial value.
+
+ 5.Inherit:It is used to inherit this property fro its parent element.
+
+ Visibility :
+
+ The visibility css property shows or hides an elemnets without changing the layout of a document. 
+
+ The property can also hide rows or columns in a table.
+
+ To both hide and element and remove it from the element layout, set the display property to none instead using visibility.
+
+visibility property:
+
+visibility: visible ;
+visibility: hidden;
+visibility: collapse;
+
+visibiity: inherite;
+visibility: inintial;
+visibility: revert;
+visibility: revert-layer;
+visibility: unset;
+
+values: visible the box is visible.
+
+hidden : the element box is invisible(not drawn), but still affects layout as normal.
+
+The elements will visible if they have visibility set to visible.The element cananot receive focus(such as when navigating through tab index)
+
+Collaps:The collaps keyword has different effects for different elements.
+
+
